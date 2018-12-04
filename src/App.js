@@ -1,25 +1,29 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
+  myFunc = () => {
+    console.log(1);
+  };
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+      <div className="App ">
+        <div className="navbar navbar-expand-lg navbar-light bg-light">
+          <div className="container">
+            <button className="btn btn-secondary" onClick={this.myFunc}>
+              Bear-guardian
+            </button>
+            <button className="btn btn-secondary" onClick={this.myFunc}>
+              Fish
+            </button>
+            <button className="btn btn-secondary" onClick={this.myFunc}>
+              Big-bar
+            </button>
+            <button className="btn btn-secondary" onClick={this.myFunc}>
+              Fuhrmann
+            </button>
+          </div>
+        </div>
       </div>
     );
   }
