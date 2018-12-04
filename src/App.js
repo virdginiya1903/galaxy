@@ -12,9 +12,15 @@ const IMG_DATA = {
     "https://cdn.pixabay.com/photo/2017/08/17/16/48/fuhrmann-2651971_960_720.jpg"
 };
 class App extends Component {
-  myFunc = () => {
-    console.log(1);
+  state = {
+    constellation: " Bear-guardian"
   };
+  myFunc = e => {
+    this.setState({
+      constellation: e.currentTarget.textContent
+    });
+  };
+
   render() {
     return (
       <div className="App ">
@@ -33,6 +39,9 @@ class App extends Component {
               Fuhrmann
             </button>
           </div>
+        </div>
+        <div className="container">
+          <p className="text-primary">{this.state.constellation}</p>
         </div>
       </div>
     );
