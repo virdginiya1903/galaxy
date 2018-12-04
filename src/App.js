@@ -1,6 +1,16 @@
 import React, { Component } from "react";
 import "./App.css";
 
+const IMG_DATA = {
+  BearGuardian:
+    "https://cdn.pixabay.com/photo/2017/08/17/16/47/bear-guardian-2651965_960_720.jpg",
+  Fish:
+    "https://cdn.pixabay.com/photo/2017/08/17/16/47/fish-2651966_960_720.jpg",
+  BigBar:
+    "https://cdn.pixabay.com/photo/2017/08/17/16/48/big-bar-2651972_960_720.jpg",
+  Fuhrmann:
+    "https://cdn.pixabay.com/photo/2017/08/17/16/48/fuhrmann-2651971_960_720.jpg"
+};
 class App extends Component {
   myFunc = () => {
     console.log(1);
