@@ -3,13 +3,13 @@ import "./App.css";
 import Content from "./Content";
 const IMG_DATA = {
   BearGuardian:
-    "https://cdn.pixabay.com/photo/2017/08/17/16/47/bear-guardian-2651965_960_720.jpg",
+    "http://dl3.joxi.net/drive/2018/12/08/0027/3308/1830124/24/73d83f8971.jpg",
   Fish:
-    "https://cdn.pixabay.com/photo/2017/08/17/16/47/fish-2651966_960_720.jpg",
+    "http://dl3.joxi.net/drive/2018/12/08/0027/3308/1830124/24/b6fefd6f9b.jpg",
   BigBar:
-    "https://cdn.pixabay.com/photo/2017/08/17/16/48/big-bar-2651972_960_720.jpg",
+    "http://dl3.joxi.net/drive/2018/12/08/0027/3308/1830124/24/7c7a9fe143.jpg",
   Fuhrmann:
-    "https://cdn.pixabay.com/photo/2017/08/17/16/48/fuhrmann-2651971_960_720.jpg"
+    "http://dl3.joxi.net/drive/2018/12/08/0027/3308/1830124/24/fceb51ffef.jpg"
 };
 class App extends Component {
   state = {
