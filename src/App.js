@@ -20,13 +20,21 @@ class App extends Component {
   render() {
     return (
       <Fragment>
-        <div className="navbar navbar-expand-lg navbar-light bg-light">
-          <div className="container">
-            <Btn myFunc={this.myFunc} />
-          </div>
-        </div>
+        <Navbar myFunc={this.myFunc} />
         <Content url={this.state.url} name={this.state.name} />
       </Fragment>
+    );
+  }
+}
+
+class Navbar extends Component {
+  render() {
+    return (
+      <div className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container">
+          <Btn myFunc={this.props.myFunc} />
+        </div>
+      </div>
     );
   }
 }
