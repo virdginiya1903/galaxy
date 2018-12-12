@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import "./App.css";
 import Content from "./Content";
 
@@ -25,6 +25,28 @@ const IMG_DATA = [
   }
 ];
 
+class Btn extends Component {
+  render() {
+    return (
+      <Fragment>
+        {IMG_DATA.map((item, index) => {
+          return (
+            <button
+              key={index}
+              className="btn btn-secondary"
+              onClick={this.props.myFunc}
+              name={item.name}
+              data-url={item.url}
+            >
+              {item.name}
+            </button>
+          );
+        })}
+      </Fragment>
+    );
+  }
+}
+
 class App extends Component {
   state = {
     name: "BearGuardian",
@@ -45,20 +67,7 @@ class App extends Component {
       <div className="App ">
         <div className="navbar navbar-expand-lg navbar-light bg-light">
           <div className="container">
-            {IMG_DATA.map((item, index) => {
-              return (
-                <button
-                  key={index}
-                  className="btn btn-secondary"
-                  onClick={this.myFunc}
-                  name={item.name}
-                  url={item.url}
-                  data-url={item.url}
-                >
-                  {item.name}
-                </button>
-              );
-            })}
+            <Btn myFunc={this.myFunc} />
           </div>
         </div>
         <Content url={this.state.url} name={this.state.name} />
