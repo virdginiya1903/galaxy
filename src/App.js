@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from "react";
 import "./App.css";
 import Content from "./Content";
-import Btn from "./Btn";
+import Navbar from "./Navbar";
 
 class App extends Component {
   state = {
@@ -23,18 +23,6 @@ class App extends Component {
         <Navbar myFunc={this.myFunc} />
         <Content url={this.state.url} name={this.state.name} />
       </Fragment>
-    );
-  }
-}
-
-class Navbar extends Component {
-  render() {
-    return (
-      <div className="navbar navbar-expand-lg navbar-light bg-light">
-        <div className="container">
-          <Btn myFunc={this.props.myFunc} />
-        </div>
-      </div>
     );
   }
 }
