@@ -1,13 +1,13 @@
 {
-  "main.css": "/static/css/main.7d41305d.chunk.css",
-  "main.js": "/static/js/main.7a16bb60.chunk.js",
-  "main.js.map": "/static/js/main.7a16bb60.chunk.js.map",
-  "static/js/1.66bbb3f2.chunk.js": "/static/js/1.66bbb3f2.chunk.js",
-  "static/js/1.66bbb3f2.chunk.js.map": "/static/js/1.66bbb3f2.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
-  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
-  "static/css/main.7d41305d.chunk.css.map": "/static/css/main.7d41305d.chunk.css.map",
-  "index.html": "/index.html",
-  "precache-manifest.c1b46e6cf141193bcdc921a74ac85a0c.js": "/precache-manifest.c1b46e6cf141193bcdc921a74ac85a0c.js",
-  "service-worker.js": "/service-worker.js"
+  "main.css": "/galaxy/static/css/main.7d41305d.chunk.css",
+  "main.js": "/galaxy/static/js/main.7a16bb60.chunk.js",
+  "main.js.map": "/galaxy/static/js/main.7a16bb60.chunk.js.map",
+  "static/js/1.66bbb3f2.chunk.js": "/galaxy/static/js/1.66bbb3f2.chunk.js",
+  "static/js/1.66bbb3f2.chunk.js.map": "/galaxy/static/js/1.66bbb3f2.chunk.js.map",
+  "runtime~main.js": "/galaxy/static/js/runtime~main.57aed8e2.js",
+  "runtime~main.js.map": "/galaxy/static/js/runtime~main.57aed8e2.js.map",
+  "static/css/main.7d41305d.chunk.css.map": "/galaxy/static/css/main.7d41305d.chunk.css.map",
+  "index.html": "/galaxy/index.html",
+  "precache-manifest.177aced4f55fa136cbd09ab6b951b39b.js": "/galaxy/precache-manifest.177aced4f55fa136cbd09ab6b951b39b.js",
+  "service-worker.js": "/galaxy/service-worker.js"
 }
